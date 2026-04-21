@@ -26,8 +26,15 @@ pip install -r requirements.txt
 
 # 3. Set the API key
 cp .env.example .env    # Windows: copy .env.example .env
-# then open .env and paste the key Lucas gave you
+# then open .env and paste the key you got from the link below
 ```
+
+Get your OpenAI API key here:
+
+> https://privatebin.net/?719ebb35838623d1#3zQjZRZV8nTGrjqg2TS7orY4coP5BuD49ZkARqYvVefq
+
+The password is written on the blackboard. Paste the key into your `.env`
+file as `OPENAI_API_KEY=sk-...`.
 
 ## Run
 
